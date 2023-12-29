@@ -136,3 +136,43 @@ body {
   .sliderItem :nth-child(4) .slideBg {
     background-color: rgb(211, 169, 18);
   }
+
+  .features{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+  }
+
+  .feature{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+}
+
+.featureIcon{
+    width: 40px;
+    height: 40px;
+}
+
+.featureTitle {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 20px;
+  }
+  
+  .featureDesc {
+    color: gray;
+    width: 50%;
+    height: 100px;
+  }
+  
+  .product{
+    height: 100vh;
+    background-color: whitesmoke;
+    position: relative;
+    /* clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%); */
+  }
+
